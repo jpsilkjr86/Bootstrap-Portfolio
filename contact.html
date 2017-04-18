@@ -23,7 +23,7 @@
 
 				<!-- Brand - My name -->
 				<div class="navbar-header">
-					<a class="navbar-brand" href="#">John Silkey</a>
+					<a class="navbar-brand" href="index.html">John Silkey</a>
 				</div>
 				
 				<!-- Floating Right Navbar - Links Menu -->
@@ -53,17 +53,23 @@
 					</div>	
 					<div class="panel-body">
 					
-						<form action="">
-							<label>Name:</label>
-							<input type="text" placeholder="Jane Doe" required/>
-							<br><br>
-							<label>Email Address:</label>
-							<input type="email" placeholder="example@gmail.com" required/>
-							<br><br>
-							<label>Message:</label>
-							<textarea name="message" placeholder="Type your message here!" required></textarea>
-							<br><br>
-							<input id="submit" type="submit" value="Submit">
+						<form>
+							<div class="form-group">
+								<label for="usr">Name:</label>
+								<input type="text" class="form-control" id="usr" placeholder="Jane Doe" required/>
+							</div>
+
+							<div class="form-group">
+								<label for="email">Email Address:</label>
+								<input type="email" class="form-control" id="email" placeholder="example@gmail.com" required/>
+							</div>
+							
+							<div class="form-group">
+								<label for="comment">Message:</label>
+								<textarea class="form-control" rows="10" id="comment" placeholder="Type your message here!" required></textarea>
+							</div>
+
+							<button type="submit" class="btn btn-default btn-lg btn-primary">Send Message</button>
 						</form>
 
 					</div> <!-- Panel body ends -->
@@ -97,7 +103,7 @@
 								</a>
 							</div> 
 						</div> <!-- Row ends -->
-						
+
 					</div>	<!-- Panel body ends -->				
 				</div> <!-- Panel ends -->
 			</div>   <!--Sidebar column ends-->
