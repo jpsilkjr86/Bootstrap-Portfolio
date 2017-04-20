@@ -1,0 +1,25 @@
+div.bottomMargin
+{
+	 margin-bottom: 100px;
+}
+
+span.paddedImgBox
+{
+	padding-right:15px; 
+	padding-bottom: 10px;
+}
+
+a.noUnderlineLink
+{
+	text-decoration: none;
+}
+
+div.footerVertCenter
+{
+	line-height: 50px;
+}
+
+img#myProfile
+{
+	width: 200px;
+}
